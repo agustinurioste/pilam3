@@ -653,7 +653,16 @@ footer em {
   font-weight: 600;
   font-style: normal;
 }
-
+#block{
+display:hidden;
+  background-color: black;
+  z-index: 999;
+}
+@media (max-width: 600px){
+  #block{
+   display: block; 
+  }
+}
 @media (max-width: 767px){
 
   .yearbook p{
