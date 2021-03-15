@@ -663,6 +663,9 @@ display:hidden;
   #block{
    display: block; 
   }
+  body{
+    display:hidden;
+  }
 }
 @media (max-width: 767px){
 
