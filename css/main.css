@@ -670,6 +670,10 @@ display:hidden;
   }
 }
 @media (max-width: 767px){
+  
+  .service-content{
+   background-size: contain; 
+  }
 
   .yearbook p{
     font-size: 4em;
