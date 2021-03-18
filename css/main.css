@@ -155,7 +155,16 @@ a:hover { color: #FF0; }
     width:100%;
     z-index:1000;
 }
-
+#our-story{
+  position: relative;
+  top: 50px;
+  z-index: -99;
+}
+#portfolio{
+  position: relative;
+  top: 10px;
+  z-index: -99;
+}
 #a{
   position:fixed;
   top:0;
@@ -380,13 +389,12 @@ a:hover { color: #FF0; }
 
 .service-content .left-text h4 {
   font-size: 24px;
-  font-weight: 300;
   color: rgb(233, 233, 233);
-  font-family: "inter";
 }
 
 h4, .h4 {
   font-size: 18px;
+  font-weight: 700;
   font-family: "inter";
 }
 
