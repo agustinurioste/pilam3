@@ -412,7 +412,7 @@ h3, .h3 {
 .service-content .left-text .line-dec {
   width: 60%;
   height: 3px;
-  background-color: #753BBD;
+  background-color: #EF3340;
   margin: 20px 0px 20px 0px;
 }
 
@@ -449,9 +449,9 @@ h3, .h3 {
 }
 
 .service-content .service-item .line-dec {
-  width: 45px;
-  height: 3px;
-  background-color: #753BBD;
+  width: 30%;
+  height: 2px;
+  background-color: #EF3340;
   margin: 20px auto 15px auto;
 }
 
@@ -604,11 +604,13 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/athens.jpg);
-  background-size: 800vmin;
+  background-image: url(../img/pat7.jpg);
+  background-size: 250vmin;
   position: relative;
   z-index: 99;
 }
+
+
 
 .contact-form {
   background-color: rgba(0, 0, 0, 0.5);
