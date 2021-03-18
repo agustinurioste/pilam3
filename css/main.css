@@ -16,12 +16,13 @@ section {
   background: #fff;
 }
 html{
- overflow-x:hidden; 
+overflow-x: hidden;
 }
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
-  overflow-x:hidden;
+  background-color: black;
+  
 }
 
 a { color: #3CC; }
@@ -365,9 +366,16 @@ a:hover { color: #FF0; }
   background-image: url(../img/mts.jpg);
   min-height: 100vh;
   background-size: cover;
-  background-attachment: fixed;
   font-family: "inter";
- 
+  position: sticky;
+  top:0px;
+  z-index: -99; 
+}
+
+.stick{
+  position: sticky;
+  top:0px;
+  z-index: -99;
 }
 
 .service-content .left-text h4 {
@@ -701,6 +709,10 @@ display:hidden;
   }
 }
 @media (max-width: 767px){
+
+  html{
+    overflow-x: hidden;
+  }
   
   .service-content{
    background-size: contain; 
