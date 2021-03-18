@@ -412,7 +412,7 @@ h3, .h3 {
 .service-content .left-text .line-dec {
   width: 60%;
   height: 3px;
-  background-color: #EF3340;
+  background-color: #f5bf41;
   margin: 20px 0px 20px 0px;
 }
 
@@ -451,7 +451,7 @@ h3, .h3 {
 .service-content .service-item .line-dec {
   width: 30%;
   height: 2px;
-  background-color: #EF3340;
+  background-color: #f5bf41;
   margin: 20px auto 15px auto;
 }
 
